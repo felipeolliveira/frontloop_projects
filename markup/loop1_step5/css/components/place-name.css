@@ -1,0 +1,21 @@
+.place-name {
+  width: 50%;
+}
+
+.place-name > .initial {
+  font-family: 'Prompt', 'Roboto', Calibri, sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #3b8acf;
+}
+
+.place-name > .place {
+  color: #aeaaaa;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.place-name.-right {
+  text-align: right;
+}
+

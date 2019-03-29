@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 1 - Step 4</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./css/generic/reset.css" />
+  <link rel="stylesheet" href="./css/base/index.css" />
+  <link rel="stylesheet" href="./css/objects/objects.css" />
+  <link rel="stylesheet" href="./css/components/message-panel.css" />
+  <link rel="stylesheet" href="./css/components/contact-header.css" />
+  <link rel="stylesheet" href="./css/components/today-row.css" />
+  <link rel="stylesheet" href="./css/components/conversation-area.css" />
+  <link rel="stylesheet" href="./css/components/ballon-receive.css" />
+  <link rel="stylesheet" href="./css/components/ballon-send.css" />
+  <link rel="stylesheet" href="./css/components/ballon-blocked.css" />
+  <link rel="stylesheet" href="./css/components/send-input.css" />
+</head>
+<body>
+  <section>
+    <div class="message-panel">
+      <div class="contact-header">
+        <span class="status -online"></span>
+        <a href="#" class="name">Mark Zuckenberg</a>
+        <img src="./img/close.svg" class="close"></img>
+      </div>
+      <div class="day-row"></div>
+      <div class="conversation-area">
+        <div class="ballon-receive">
+          <span class="time">10:53</span>
+          <p class="message">Olá, Mark! Eu fiz um novo design para o aplicativo de mensagem.</p>
+        </div>
+        <div class="ballon-send">
+          <span class="time">10:57</span>
+          <p class="message">Opa! Envia isso pro meu assistente e nós iremos dar uma olhadinha durante esse ano</p>
+        </div>
+        <div class="ballon-receive">
+          <span class="time">11:03</span>
+          <p class="message">Mas Mark...</p>
+        </div>
+      </div>
+      <div class="send-input">
+        <input type="text" class="inputdefault" id="input" placeholder="Escreva sua mensagem">
+        <button class="buttonsend">Enviar</button>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

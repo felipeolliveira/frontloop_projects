@@ -1,0 +1,84 @@
+.container {
+  width: 70%;
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 2em 0 8em 0;
+  box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+  margin: 10% auto;
+}
+
+.container_bike {
+  background: #fff url('../img/bicycle-half.png') no-repeat center bottom;
+  background-size: 100% auto;
+}
+
+.is_message {
+  font-size: 0.7em;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+  color: #aaacb6;
+}
+
+.order-container {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.order-header {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-title {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #000000;
+}
+
+.order-header-profile {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #aaacb6;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.order-header-profile-image {
+ width: auto;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em auto;
+}
+
+.order-item-description {
+  padding-right: 5%;
+}
+
+.order-item-description_uppercase {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.order-item-value {
+  font-weight: 700;
+  color: #000;
+}
+
+@media (max-width: 400px) {
+  .order-header {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}

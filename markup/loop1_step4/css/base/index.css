@@ -1,0 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #b4c9db;
+}
+
+section {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

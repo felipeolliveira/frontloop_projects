@@ -1,0 +1,25 @@
+.ballon-blocked {
+  width: 70%;
+  height: auto;
+  padding: 2px;
+  position: relative;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.ballon-blocked.-left{
+  margin-right: auto;
+}
+
+.ballon-blocked.-right{
+  margin-left: auto;
+}
+
+.ballon-blocked > .message {
+  font-size: 0.8rem;
+  padding: 10px 10px;
+  line-height: 1.2rem;
+  border-radius: .5rem; 
+  background-color: #ffc2c1;
+  word-wrap: break-word;
+}

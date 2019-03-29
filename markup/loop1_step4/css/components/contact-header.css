@@ -1,0 +1,40 @@
+.contact-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #6a96d8;
+  padding: 0 20px;
+}
+
+.contact-header > .status {
+  width: .4rem;
+  height: .4rem;
+  background-color: #fff;
+  margin-right: .6rem;
+  border-radius: 50%;
+}
+
+.contact-header > .status.-online {
+ background-color: #00ff00;
+}
+
+.contact-header > .name {
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.contact-header > .close {
+  width: 1.5rem;
+  height: auto;
+  opacity: .5;
+  margin-left: auto;
+  transition: opacity .3s;
+  cursor: pointer;
+}
+
+.contact-header > .close:hover {
+ opacity: 1;
+}

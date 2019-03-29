@@ -1,0 +1,9 @@
+#modal-travel {
+  width: 80%;
+  height: 90vh;
+  min-height: 500px;
+  margin: 20px auto;
+  background: #ffffff;
+  /* overflow: hidden; */
+  position: relative;
+}

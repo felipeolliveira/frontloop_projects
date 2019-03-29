@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  .post-modal {
+    flex-direction: column;
+    min-height: 560px;
+  }
+
+  .user-side, .post-side {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .user-profile {
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  .user-profile > .avatar {
+    margin: 0 0 10px auto;
+  }
+  
+  .user-profile > .name {
+    margin-left: auto;
+  }
+
+}

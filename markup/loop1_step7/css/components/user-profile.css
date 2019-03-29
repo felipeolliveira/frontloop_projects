@@ -1,0 +1,21 @@
+.user-profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom:0;
+  left: 0;
+  padding: 0 1.5rem 1.8rem;
+}
+
+.user-profile > .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.user-profile > .name {
+  font-size: .8rem;
+  font-weight: 300;
+  margin-left: 2%;
+}

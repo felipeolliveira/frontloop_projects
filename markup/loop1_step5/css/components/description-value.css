@@ -1,0 +1,16 @@
+.description-value {
+  width: 33.33%;
+  margin-bottom: 1rem;
+}
+
+.description-value > .name {
+  font-size: .6rem;
+  font-weight: 500;
+  color: #aeaaaa;
+  text-transform: uppercase;
+}
+
+.description-value > .value {
+  font-weight: 600;
+  font-size: 1rem
+}

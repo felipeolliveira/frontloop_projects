@@ -1,0 +1,47 @@
+.modal-box {
+  width: 80%;
+  min-width: 320px;
+  height: auto;
+  margin: 2% auto;
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+}
+
+.modal-box > .login {
+  width: 60%;
+  margin: 5% 5% 0%;
+}
+
+.modal-box > .login > .title {
+  width: 100%;
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+}
+
+.modal-box > .login > .joinus {
+ width: 100%;
+ font-size: .9rem;
+ color: #8b8b90;
+ margin-bottom: 60px
+}
+
+.modal-box > .background {
+  width: 40%;
+  background: url('../../img/side.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .modal-box > .login {
+    width: 100%;
+  }
+
+  .modal-box > .login {
+    text-align: center;
+  }
+
+  .modal-box > .background {
+    display: none;
+  }
+}

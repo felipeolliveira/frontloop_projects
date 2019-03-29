@@ -1,0 +1,13 @@
+.markup-header {
+  text-align: center;
+  color: #fff;
+}
+
+.markup-header > .title {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 5rem 0;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

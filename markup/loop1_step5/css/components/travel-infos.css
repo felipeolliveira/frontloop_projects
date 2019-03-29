@@ -1,0 +1,8 @@
+.travel-infos {
+  width: 100%;
+  display: flex;
+}
+
+.travel-infos.-vertical {
+  flex-direction: column;
+}

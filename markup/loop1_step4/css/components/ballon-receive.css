@@ -1,0 +1,41 @@
+.ballon-receive {
+  width: 70%;
+  height: auto;
+  padding: 2px;
+  position: relative;
+  margin-bottom: 20px;
+  font-weight: 500;
+  margin-right: auto;
+}
+
+.ballon-receive > .message {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 10px 10px;
+  line-height: 1.2rem;
+  border-radius: .5rem; 
+  background-color: #e6edf6;
+  word-break: break-word;
+}
+
+.ballon-receive::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top:0;
+  left: 0;
+  transform: translateX(-35%) translateY(25%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #e6edf6; 
+}
+
+.ballon-receive > .time {
+  font-size: .6rem;
+  color: #cbc2b9;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  transform: translateY(-15px);
+}

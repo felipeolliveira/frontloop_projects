@@ -1,0 +1,43 @@
+.ballon-send {
+  width: 70%;
+  height: auto;
+  padding: 2px;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.ballon-send > .message {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 10px 10px;
+  line-height: 1.2rem;
+  border-radius: .5rem; 
+  background-color: #f2f2f2;
+  word-break: break-word;
+}
+
+.ballon-send::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  right: 0;
+  transform: translateX(35%) translateY(25%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #f2f2f2; 
+}
+
+.ballon-send > .time {
+  font-size: .6rem;
+  color: #cbc2b9;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  transform: translateY(-15px);
+}

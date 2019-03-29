@@ -1,0 +1,36 @@
+.card-tourism {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-tourism > .title {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.card-tourism > .author {
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  margin-top: 30px;
+}
+
+.card-tourism > .preview {
+  margin-top: 30px;
+  width: 50%;
+  display: inline-block;
+}
+
+.card-tourism > .preview > .cape {
+  width: 90%;
+  display: inline-block;
+}
+
+.card-tourism > .preview > .more {
+  width: 100%;
+  display: inline-block;
+}
+
+.card-tourism > .description {
+  width: 49%;
+  display: inline-block;
+}

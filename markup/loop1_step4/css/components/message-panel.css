@@ -1,0 +1,7 @@
+.message-panel {
+  width: 50%;
+  min-width: 300px;
+  max-width: 960px;
+  background-color: #fff;
+  margin: 50px auto;
+}

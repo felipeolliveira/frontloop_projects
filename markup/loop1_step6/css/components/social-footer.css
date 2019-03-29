@@ -1,0 +1,23 @@
+.social-footer {
+  width: 100%;
+  margin: 60px 0 0;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eef0f3;
+}
+.social-footer > .description {
+  font-size: .8rem;
+ color: #8b8b90;
+}
+
+.social-footer > .signup {
+  font-size: .6rem;
+  color: #8b8b8c;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.social-footer > .signup:hover {
+  color: #444444;
+}

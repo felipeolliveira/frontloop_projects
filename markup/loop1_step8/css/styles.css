@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+
+@import "./generic/generic.css";
+@import "./base/base.css";
+@import "./objects/modal-travel.css";
+@import "./objects/navegation-menu.css";
+@import "./objects/left-side.css";
+@import "./objects/right-side.css";
+@import "./objects/card-tourism.css";

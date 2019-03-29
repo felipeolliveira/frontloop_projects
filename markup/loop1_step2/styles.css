@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background: url('img/background.jpg') center center no-repeat;
+  color: #37393b;
+}
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style: none;  
+}
+
+.payment {
+  width: 100%;
+}
+
+.container {
+  width: 25%;
+  min-width: 300px;
+  height: auto;
+  background: #fff;
+  margin: 10% auto;
+  padding: 20px 0 0 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+  overflow-y: hidden;
+}
+
+.page-index {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.page-index ul {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.page-index ul li{
+  width: 6px;
+  height: 6px;
+  background-color: #dedede;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%; 
+}
+
+.page-index ul li.page-active {
+  background: #aaa;
+}
+
+.flag {
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  border-top: 1px solid #dedede;
+  display: flex;
+  padding: 10px 0;
+}
+
+.flag .flag-icon {
+  width: 25%;
+}
+
+.flag p {
+  width: 55%;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .75rem;
+  padding-left: 5%;
+  color: #dedede;
+}
+
+.flag.active p {
+  color: #37393b;
+}
+
+.flag .check {
+  width: 20%;
+}
+
+.next-button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  color: #fff;
+  background: #598bdd;
+  border-radius: 0 0 5px 5px;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.next-button img {
+  width: 10px;
+}
+
+.next-button:active {
+  transform: translateY(2px);
+}

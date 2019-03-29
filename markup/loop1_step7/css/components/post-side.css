@@ -1,0 +1,24 @@
+.post-side {
+  width: 60%;
+  height: 100%;
+  color: #484956;
+  padding: 2rem 1.5rem 0;
+  position: relative;
+}
+
+.post-side > .area {
+  width: 100%;
+  height: 75%;
+  overflow-y: auto;
+}
+
+.post-side > .area > .text {
+  line-height: 1.5rem;
+  overflow-y: auto; 
+}
+
+.post-side > .area > .text::first-letter {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+}

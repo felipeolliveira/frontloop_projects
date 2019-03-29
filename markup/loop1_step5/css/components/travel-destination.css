@@ -1,0 +1,18 @@
+.travel-destination {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.2rem auto;
+  position: relative;
+}
+
+.travel-destination::after {
+  content: '';
+  width: 10%;
+  height: 5px;
+  background: #d3e6f4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%)
+}
