@@ -5,19 +5,20 @@
 
 .card-tourism > .title {
   font-size: 3rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .card-tourism > .author {
   font-size: 1rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-top: 30px;
 }
 
 .card-tourism > .preview {
-  margin-top: 30px;
+  margin-top: 50px;
   width: 50%;
   display: inline-block;
+  vertical-align: top;
 }
 
 .card-tourism > .preview > .cape {
@@ -33,4 +34,8 @@
 .card-tourism > .description {
   width: 49%;
   display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  font-weight: 300;
+  line-height: 140%;
 }

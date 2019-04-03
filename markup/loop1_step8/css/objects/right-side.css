@@ -1,4 +1,6 @@
 .right-side {
   width: 59%;
   display: inline-block;
+  vertical-align: middle;
+  padding-top: 80px;
 }
